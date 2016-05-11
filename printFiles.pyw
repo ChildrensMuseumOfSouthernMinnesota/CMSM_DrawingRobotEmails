@@ -7,8 +7,6 @@ configFile = open("userConfig.txt", 'r')
 user = configFile.readline().strip()
 pwd = configFile.readline().strip()
 
-configFile.close()
-
 #smtp = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 #smtp.login(user, pwd)
 m = imaplib.IMAP4_SSL('imap.gmail.com')
