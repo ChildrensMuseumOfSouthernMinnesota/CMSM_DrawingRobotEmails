@@ -56,5 +56,5 @@ for f in files:
         weekDelta = timeDelta/60/60/24/7
         if (weekDelta > 1):
                 os.remove(os.path.join(detach_dir, f))
-        print(weekDelta)
+        print weekDelta
 
